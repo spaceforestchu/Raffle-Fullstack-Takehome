@@ -1,35 +1,24 @@
 [![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
 
-# Frontend-And-Mobile-Takehome-Coding-Challenge
+# Raffle-Takehome-Coding-Challenge
 
-Coding challenge where you build a Raffle App client that interact with a RESTful API using React (Web) or Using Swift (Mobile)
+Coding challenge where you build a Raffle App including a RestAPI and connected Web Client (React)
 
 ## Prerequisites
 
-### Web
-
 - Node.js account
 - Knowledge or JavaScript and React
-
-### Mobile
-
-- Xcode installed
-- Knowledge of Swift
+- Knowledge of RestAPIs
+- Knowledge of Databases
 
 ## Getting Started
 
-### Web
-
-1. Create a new React App.
-   - You may use `create-react-app`
-
-### Mobile
-
-1. Create a new Swift Xcode Project for your app.
-
-### All
-
-- Complete your client application according to the Technical requirements below.
+1. Create a new Node + Express app for your API
+2. Create a new React App.
+   - You may use `create-react-app` or any other starter app
+3. Complete all Technical Requirements listed below
+   a. Create an API with all routes listed below (this will require database tables, the database structure is up to you)
+   b. Create a Front-end that allows the user to view & create Raffles, as well as, select winners 
 
 ## Technical Requirements
 
@@ -43,14 +32,11 @@ Create a client for a Raffle application. Users are able to:
 **Notes**:
 
 - You may use any 3rd-party libraries or packages for functionality or styling.
-  - **Web** We recommend you use something like Bootstrap or Material UI or others to style you app.
-  - **Mobile** You must write your networking layer natively, do not use Alamofire or equivalents for Network Requests.
+  - We recommend you use something like Bootstrap or Material UI or others to style you app.
 
 ### API
 
-Use the details and endpoints of the API below to accomplish the Raffle App functionality. This API accepts and returns JSON payloads.
-
-**Root Endpoint**: `https://raffle-be.herokuapp.com`
+Use the details and endpoints of the API below to guide the development of your API. This API should accept and return JSON payloads.
 
 | Method | Endpoint                        | Description                                                | Example JSON Body Payload                                                                              |
 | ------ | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -72,11 +58,10 @@ Use the details and endpoints of the API below to accomplish the Raffle App func
 Your application doesn't have to look exactly as the wireframes below, however it should have all the main components, accomplish all the functionality and be visually pleasing.
 
 - Web Wireframes can be found [here](./Web-Raffle-App-Wireframes.pdf)
-- Mobile Wireframes can be found [here](./Mobile-Raffle-App-Wireframes.pdf)
 
 ### App Pages/Views
 
-Your Raffle App should have the following pages or views (mobile) (and be displayed at their respective browser url [Web only]).
+As a guide for your work, you may use the wireframes above and follow the directions below to create your Front-end.
 
 #### Home `/`
 
@@ -90,10 +75,6 @@ Displays a nav bar or navigation menu that would take the user to **All Raffles*
 
 Below the navbar display a form to add a new participant to the Raffle. The form must include First Name, Last Name, Email and Phone inputs. The phone input should be optional and all others required. Include two buttons one to submit and another to reset the form.
 
-#### Raffle Participants `/raffles/:id/participants`
-
-Display the total number of participants and a list of all users and their information.
-
 #### Pick Winner `/raffles/:id/winner`
 
 Displays a form where a user (the raffle admin) can input their secret token and pick a winner at random for the raffle. If a winner has already been picked this page/view should display a card with the user information and a celebratory image and never show the form again.
@@ -103,6 +84,4 @@ Displays a form where a user (the raffle admin) can input their secret token and
 - We think this challenge would take ~10 hours to complete, so allocate your time appropriately.
 - You must submit your solution no later than **Tuesday January 17th @ 10:00am**
 - Include a README.md file with instructions on how to run your project.
-- Submit your code compressed in a zip file using the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSeY0nBqtXTV06b2CmAreHLJzVHlG0cQHUx9g1RKPYer0hNVVQ/viewform?usp=sf_link)
-  - **Web** make sure to remove your `node_modules/` folder before compressing
 - For any questions reach out to @Billy Taggart in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
