@@ -13,6 +13,7 @@ Coding challenge where you build a Raffle App including a RestAPI and connected 
 
 ## Getting Started
 
+0. Create a new repo for your app (e.g. {your-name}-takehome-polleverywhere)
 1. Create a new Node + Express app for your API
 2. Create a new React App.
    - You may use `create-react-app` or any other starter app
