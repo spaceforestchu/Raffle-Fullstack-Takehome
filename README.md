@@ -75,6 +75,10 @@ Displays a nav bar or navigation menu that would take the user to **All Raffles*
 
 Below the navbar display a form to add a new participant to the Raffle. The form must include First Name, Last Name, Email and Phone inputs. The phone input should be optional and all others required. Include two buttons one to submit and another to reset the form.
 
+#### Raffle Participants `/raffles/:id/participants`
+
+Display the total number of participants and a list of all users and their information.
+
 #### Pick Winner `/raffles/:id/winner`
 
 Displays a form where a user (the raffle admin) can input their secret token and pick a winner at random for the raffle. If a winner has already been picked this page/view should display a card with the user information and a celebratory image and never show the form again.
