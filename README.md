@@ -89,4 +89,4 @@ Displays a form where a user (the raffle admin) can input their secret token and
 - We think this challenge would take ~10 hours to complete, so allocate your time appropriately.
 - You must submit your solution no later than **Tuesday Tuesday 23th @ 12:00pm**
 - Include a README.md file with instructions on how to run your project.
-- For any questions reach out to @Billy Taggart in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
+- For any questions reach out to @Pak Chu in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
